@@ -1,0 +1,46 @@
+Case Study GIT
+
+Local Operations
+
+1. git init
+
+git congig --global user.name."vedvati"
+git config --global user.email "vedvati@persistent.co.in"
+
+2. git add .
+
+3.git commit -am "This is first Commit,Tracking File1 and FileToDelete"
+
+
+4. git commit -am "Change1 in File1"
+   git commit -am "Change2 in File2"
+
+   git log --oneline -3
+
+5. git commit -am "File to delete id deleted"
+
+6. git log
+  
+   git log --oneline -3
+
+   git log --since="start date" --until="enddate"="mm/dd/yyyy"
+ 
+   git log --grep="File1"
+
+7. git reset "enter SHA code"
+
+8. git mv File1.txt TestFile.txt
+
+
+Branching and Rebasing
+
+1. git branch bug
+   git checkout bug
+
+2. git commit -am “Bug Resolved – Space added between numerical and letters”
+
+3. git checkout master
+   git merge bug
+
+4.git branch -d bug
+	
