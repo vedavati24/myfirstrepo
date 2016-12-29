@@ -1,7 +1,7 @@
-Hello Git
+Hello Git!!
 
-Making changes- change1
-
-Making changes- change2
+Making changes- change 1
+ 
+Making changes- change 2
 
 Making changes- change 3
